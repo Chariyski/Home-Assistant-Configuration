@@ -1,0 +1,11 @@
+alias: Send email when home state change2
+trigger:
+  platform: state
+  entity_id: device_tracker.pi_krasi_phone
+  from: 'not_home'
+  to: 'home'
+action:
+- service: notify.email
+  data:
+    title: 'home'
+    message: 'enter'

@@ -1,0 +1,10 @@
+alias: Send message at a given time
+trigger:
+  platform: time
+  hours: 9
+  minutes: 0
+  seconds: 0
+action:
+  service: notify.pushbullet
+  data:
+    message: 'The server is working'

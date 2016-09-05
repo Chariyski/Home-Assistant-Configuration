@@ -1,0 +1,11 @@
+- sensor.date__time
+- sensor.forecastio_icon
+- sensor.forecastio_daily_summary
+- sensor.forecastio_condition
+- sensor.forecastio_temperature
+- sensor.forecastio_apparent_temperature
+- sensor.forecastio_precip_type
+- sensor.forecastio_precip_probability
+- sensor.forecastio_precip
+- sensor.forecastio_humidity
+- sensor.forecastio_wind_speed

@@ -1,0 +1,4 @@
+- sensor.cpu_use
+- sensor.ram_free
+- sensor.last_boot
+- sensor.disk_free_ #disk_free_home

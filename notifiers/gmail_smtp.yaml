@@ -1,0 +1,9 @@
+- platform: smtp
+  name: email
+  server: smtp.gmail.com
+  port: 587
+  sender: !secret gmail_sender
+  starttls: 1
+  username: !secret gmail_username
+  password: !secret gmail_password
+  recipient: !secret gmail_recipient

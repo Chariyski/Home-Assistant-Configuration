@@ -1,0 +1,6 @@
+name: Color
+icon: mdi:color-lens
+options:
+  - red
+  - blue
+  - green

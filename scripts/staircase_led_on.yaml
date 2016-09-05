@@ -1,0 +1,9 @@
+alias: "Turn on staircase led"
+sequence:
+  - service: script.turn_off
+    data:
+       entity_id: script.staircase_led_off
+  - service: templated_shell_command.staircase_led_on
+  - service: script.turn_on
+    data:
+      entity_id: script.staircase_led_off

@@ -1,0 +1,5 @@
+name: Work Mode
+options:
+ - "On"
+ - "Off"
+initial: "Off"

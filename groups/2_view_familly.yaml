@@ -1,0 +1,5 @@
+name: Family
+view: yes
+entities:
+  - group.krasi
+  - group.ida

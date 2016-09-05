@@ -1,0 +1,14 @@
+.idea
+
+*.db
+*.log
+*.xml
+*.db-journal
+*.sqlite
+*.txt
+.HA_VERSION
+custom_components/__pycache__/**/*.*
+
+secrets.yaml
+deps
+www

@@ -1,0 +1,29 @@
+homeassistant:
+  name: Home
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: 711
+  unit_system: metric
+  time_zone: !secret time_zone
+
+frontend:
+http:
+  # api_password: !secret http_password #TODO Uncomment
+updater:
+discovery:
+conversation:
+history:
+logbook:
+sun:
+
+automation: !include_dir_list automations
+device_tracker: !include_dir_merge_list trackers
+group: !include_dir_named groups
+input_select: !include_dir_named inputs/selects
+mqtt: !include servers/mqtt.yaml
+notify: !include_dir_merge_list notifiers
+panel_iframe: !include panels/panel_iframe.yaml
+script: !include_dir_named scripts
+sensor: !include_dir_merge_list sensors
+templated_shell_command: !include commands/template_shell_commands.yaml
+zone: !include_dir_merge_list zones

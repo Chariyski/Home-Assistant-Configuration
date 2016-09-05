@@ -1,0 +1,6 @@
+name: Animation Mode
+options:
+  - pixel by pixel
+  - stair by stair
+  - no animation
+initial: stair by stair

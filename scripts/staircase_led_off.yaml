@@ -1,0 +1,6 @@
+alias: "Turn off staircase light after 1 min"
+sequence:
+  - delay:
+      minutes: 0
+      seconds: 20
+  - service: templated_shell_command.staircase_led_off
