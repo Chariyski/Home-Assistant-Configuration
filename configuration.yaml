@@ -8,7 +8,9 @@ homeassistant:
 
 frontend:
 http:
-  # api_password: !secret http_password #TODO Uncomment
+  #api_password: !secret http_password #TODO Uncomment
+  ssl_certificate: /etc/letsencrypt/live/chariyski.duckdns.org/fullchain.pem
+  ssl_key: /etc/letsencrypt/live/chariyski.duckdns.org/privkey.pem
 updater:
 discovery:
 conversation:
