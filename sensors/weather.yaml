@@ -1,4 +1,4 @@
-- platform: forecast
+- platform: darksky
   api_key: a4277fdc3bfc990a0e8b00f73f1a7d34
   monitored_conditions:
     - precip_type
