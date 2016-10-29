@@ -1,0 +1,5 @@
+- platform: rest
+  name: staircase_led
+  resource: http://127.0.0.1:3000/staircase
+  method: POST_JSON
+  message_param_name: message 
