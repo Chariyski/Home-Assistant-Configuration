@@ -1,9 +1,13 @@
-alias: "Turn on staircase led"
+alias: "Turn on staircase led for predefined time"
 sequence:
+  # Cansel old timers
   - service: script.turn_off
     data:
        entity_id: script.staircase_led_off
-  - service: templated_shell_command.staircase_led_on
+  - service: notify.staircase_led
+    data:
+      message: '{}'
+  # Set new timer
   - service: script.turn_on
     data:
       entity_id: script.staircase_led_off

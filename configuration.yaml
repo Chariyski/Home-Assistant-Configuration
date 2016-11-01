@@ -26,5 +26,4 @@ notify: !include_dir_merge_list notifiers
 panel_iframe: !include panels/panel_iframe.yaml
 script: !include_dir_named scripts
 sensor: !include_dir_merge_list sensors
-templated_shell_command: !include commands/template_shell_commands.yaml
 zone: !include_dir_merge_list zones

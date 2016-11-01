@@ -3,4 +3,6 @@ sequence:
   - delay:
       minutes: 0
       seconds: 20
-  - service: templated_shell_command.staircase_led_off
+  - service: notify.staircase_led
+    data:
+      message: '{}'
