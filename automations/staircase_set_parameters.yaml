@@ -9,4 +9,4 @@ trigger:
 action:
   service: notify.staircase_led
   data:
-    message: '{ "animationMode" : {{states("input_select.staircase_animation_mode")}}, "workMode" : {{states("input_select.staircase_work_mode")}}, "color" : {{states("input_select.staircase_led_color")}} }'
+    message: '{ "animationMode" : "{{states("input_select.staircase_animation_mode")}}", "workMode" : "{{states("input_select.staircase_work_mode")}}", "color" : "{{states("input_select.staircase_led_color")}}" }'
