@@ -1,4 +1,0 @@
-router:
-  title: 'Router'
-  icon: 'mdi:router-wireless'
-  url: 'http://192.168.0.1'

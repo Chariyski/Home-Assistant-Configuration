@@ -1,4 +1,4 @@
-alias: Send email when home state change
+alias: Send email when home state change to not_home
 trigger:
   platform: state
   entity_id: device_tracker.pi_krasi_phone

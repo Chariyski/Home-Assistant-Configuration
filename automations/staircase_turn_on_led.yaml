@@ -1,10 +1,15 @@
-alias: Turn on staircase led lights when there is #TODO
+alias: Turn on staircase led lights on home entering
 trigger:
   - platform: state
     entity_id: device_tracker.pi_krasi_phone
     from: 'not_home'
     to: 'home'
-#  - platform: sun
-#    event: sunset
+  - platform: state
+    entity_id: device_tracker.pi_ida_phone
+    from: 'not_home'
+    to: 'home'
+condition:
+  - condition: sun
+    after: sunset
 action:
-  service: script.staircase_led_on
+  - service: script.staircase_led_on

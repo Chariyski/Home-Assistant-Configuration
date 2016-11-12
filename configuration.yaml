@@ -8,7 +8,7 @@ homeassistant:
 
 frontend:
 http:
-  #api_password: !secret http_password #TODO Uncomment
+  api_password: !secret http_password
   ssl_certificate: !secret ssl_certificate
   ssl_key: !secret ssl_key
 discovery:
@@ -23,7 +23,6 @@ group: !include_dir_named groups
 input_select: !include_dir_named inputs/selects
 mqtt: !include servers/mqtt.yaml
 notify: !include_dir_merge_list notifiers
-panel_iframe: !include panels/panel_iframe.yaml
 script: !include_dir_named scripts
 sensor: !include_dir_merge_list sensors
 zone: !include_dir_merge_list zones

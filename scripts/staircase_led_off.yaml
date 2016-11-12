@@ -1,8 +1,8 @@
-alias: "Turn off staircase light after 1 min"
+alias: "Turn off staircase light with delay"
 sequence:
   - delay:
-      minutes: 0
-      seconds: 20
+      minutes: 5
+      seconds: 0
   - service: notify.staircase_led
     data:
-      message: '{}'
+      message: '{ "workMode" : "off" }'
