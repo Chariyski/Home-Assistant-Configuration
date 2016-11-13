@@ -1,0 +1,3 @@
+name: Turn on/off the staircase led light
+initial: off
+icon: mdi:stairs

@@ -5,6 +5,7 @@ homeassistant:
   elevation: 711
   unit_system: metric
   time_zone: !secret time_zone
+  customize: !include_dir_merge_named customizations
 
 frontend:
 http:
@@ -21,6 +22,7 @@ automation: !include_dir_list automations
 device_tracker: !include_dir_merge_list trackers
 group: !include_dir_named groups
 input_select: !include_dir_named inputs/selects
+input_boolean: !include_dir_named inputs/booleans
 mqtt: !include servers/mqtt.yaml
 notify: !include_dir_merge_list notifiers
 script: !include_dir_named scripts

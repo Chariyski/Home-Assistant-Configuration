@@ -1,0 +1,10 @@
+alias: Set staircase led options
+trigger:
+- platform: state
+  entity_id: input_select.staircase_led_animation_mode
+- platform: state
+  entity_id: input_select.staircase_led_color
+action:
+  service: notify.staircase_led
+  data:
+    message: '{ "animationMode" : "{{states("input_select.staircase_led_animation_mode")}}", "color" : "{{states("input_select.staircase_led_color")}}" }'

@@ -1,5 +1,5 @@
 name: Color
-icon: mdi:color-lens
+icon: mdi:format-color-fill
 options:
   - red
   - blue
