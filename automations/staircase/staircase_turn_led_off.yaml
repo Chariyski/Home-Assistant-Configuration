@@ -3,6 +3,10 @@ trigger:
   platform: state
   entity_id: input_boolean.staircase_led_state
   state: 'off'
+condition:
+  condition: state
+  entity_id: sensor.staircase_state
+  state: 'on'
 action:
   service: notify.staircase_led
   data:

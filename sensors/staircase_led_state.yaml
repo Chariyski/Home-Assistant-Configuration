@@ -1,0 +1,4 @@
+- platform: rest
+  resource: http://127.0.0.1:3000/staircase
+  name: Staircase state
+  value_template: '{{ value_json.workMode }}'

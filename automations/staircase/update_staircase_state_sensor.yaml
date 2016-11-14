@@ -1,0 +1,17 @@
+alias: Thermostat - Away Input
+trigger:
+  - platform: state
+    entity_id: sensor.staircase_state
+    state: 'on'
+  - platform: state
+    entity_id: sensor.staircase_state
+    state: 'off'
+action:
+  service_template: >
+    {% if is_state('sensor.staircase_state', 'off') %}
+      homeassistant.turn_off
+    {% elif is_state('sensor.staircase_state', 'on') %}
+      homeassistant.turn_on
+    {% else %}
+    {% endif %}
+  entity_id: input_boolean.staircase_led_state
