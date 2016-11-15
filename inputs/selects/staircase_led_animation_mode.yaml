@@ -1,6 +1,8 @@
 name: Animation Mode
 options:
-  - pixel by pixel
+  - middle to end
+  - end to middle
   - stair by stair
+  - pixel by pixel
   - no animation
-initial: stair by stair
+initial: middle to end
