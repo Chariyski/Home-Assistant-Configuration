@@ -1,6 +1,7 @@
 name: Color
 icon: mdi:format-color-fill
 options:
+  - white
   - red
   - blue
   - green

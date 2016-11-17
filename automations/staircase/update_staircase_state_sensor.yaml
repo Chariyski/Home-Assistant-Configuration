@@ -1,4 +1,4 @@
-alias: Thermostat - Away Input
+alias: Update staircase toggle switch
 trigger:
   - platform: state
     entity_id: sensor.staircase_state

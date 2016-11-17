@@ -17,6 +17,7 @@ conversation:
 history:
 logbook:
 sun:
+updater:
 
 automation: !include_dir_list automations
 device_tracker: !include_dir_merge_list trackers

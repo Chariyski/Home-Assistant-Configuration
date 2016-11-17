@@ -1,6 +1,7 @@
 .idea
 
 *.db
+*.uuid
 *.log
 *.xml
 *.db-journal
