@@ -1,0 +1,21 @@
+alias: Turn off staircase led lights if we are not at home for 10min.
+trigger:
+  platform: state
+  entity_id: sensor.staircase_state
+  state: 'on'
+  for:
+    hours: 0
+    minutes: 10
+    seconds: 0
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: 'device_tracker.pi_krasi_phone'
+      state: 'not_home'
+    - condition: state
+      entity_id: 'device_tracker.pi_ida_phone'
+      state: 'not_home'
+action:
+  service: homeassistant.turn_off
+  entity_id: input_boolean.staircase_led_state
