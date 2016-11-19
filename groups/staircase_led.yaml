@@ -1,3 +1,4 @@
 - input_select.staircase_led_animation_mode
 - input_select.staircase_led_color
+- input_select.staircase_led_direction
 - input_boolean.staircase_led_state
