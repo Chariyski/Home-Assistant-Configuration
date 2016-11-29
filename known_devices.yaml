@@ -7,7 +7,7 @@ krasi_laptop:
 
 pi_krasi_phone:
   name: Galaxy S5
-  mac: #78:4B:87:60:AF:99
+  mac: 78:4B:87:60:AF:99
   picture: http://p1.akcdn.net/gallery/301029267/full/570461.samsung-galaxy-s5-neo-g903.jpg
   track: yes
   hide_if_away: no
