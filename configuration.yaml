@@ -28,4 +28,5 @@ mqtt: !include servers/mqtt.yaml
 notify: !include_dir_merge_list notifiers
 script: !include_dir_named scripts
 sensor: !include_dir_merge_list sensors
+shell_command: !include commands/shell_commands.yaml
 zone: !include_dir_merge_list zones
