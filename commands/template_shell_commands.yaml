@@ -1,3 +1,0 @@
-staircase_set: 'curl -X POST -H "Content-Type: application/json" -d "{\"color\":\"{{states.input_select.staircase_led_color.state}}\", \"workMode\":\"{{states.input_select.staircase_work_mode.state}}\", \"animationMode\":\"{{states.input_select.staircase_animation_mode.state}}\"}" http://127.0.0.1:3000/staircase'
-staircase_led_on: 'curl -X POST -H "Content-Type: application/json" -d "{\"workMode\":\"On\"}" http://127.0.0.1:3000/staircase'
-staircase_led_off: 'curl -X POST -H "Content-Type: application/json" -d "{\"workMode\":\"Off\"}" http://127.0.0.1:3000/staircase'
