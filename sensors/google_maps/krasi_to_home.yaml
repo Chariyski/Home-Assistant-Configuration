@@ -1,0 +1,5 @@
+- platform: google_travel_time
+  name: GM Krasi To Home
+  api_key: !secret google_time_travel_api_key
+  origin: device_tracker.pi_krasi_phone
+  destination: !secret home_address
