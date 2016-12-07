@@ -1,0 +1,6 @@
+sensor.gm_krasi_to_home:
+  friendly_name: Driving time to home
+  icon: mdi:car
+sensor.gm_ida_to_home:
+  friendly_name: Driving time to home
+  icon: mdi:car

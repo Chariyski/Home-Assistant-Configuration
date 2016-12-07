@@ -1,2 +1,3 @@
 - device_tracker.pi_ida_phone
 - sensor.idas_phone_battery
+- sensor.gm_ida_to_home
