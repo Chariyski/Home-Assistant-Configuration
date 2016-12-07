@@ -1,3 +1,18 @@
+########################################
+#                Devices               #
+########################################
+
+sensor.krasis_phone_battery:
+  friendly_name: Phone battery
+  icon: mdi:cellphone
+sensor.idas_phone_battery:
+  friendly_name: Phone battery
+  icon: mdi:cellphone
+
+########################################
+#             Google Maps              #
+########################################
+
 sensor.gm_krasi_to_home:
   friendly_name: Driving time to home
   icon: mdi:car
