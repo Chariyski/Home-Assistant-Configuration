@@ -4,3 +4,5 @@ group.staircase:
   order: 2
 group.server_status:
   order: 3
+group.hass:
+  order: 10
