@@ -1,0 +1,8 @@
+- platform: mqtt
+  name: "Kitchen"
+  state_topic: "home/sonoff/kitchen/1/stat"
+  command_topic: "home/sonoff/kitchen/1"
+  qos: 1
+  payload_on: "on"
+  payload_off: "off"
+  retain: true
