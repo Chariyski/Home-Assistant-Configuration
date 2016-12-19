@@ -1,0 +1,10 @@
+alias: Turn off the kitchen led after midnight
+trigger:
+  platform: time
+  after: '00:00:00'
+condition:
+  condition: sun
+  after: sunset
+action:
+  service: homeassistant.turn_off
+  entity_id: switch.kitchen
