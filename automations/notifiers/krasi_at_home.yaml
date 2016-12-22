@@ -1,0 +1,11 @@
+alias: Send notification when Krasi gets home
+trigger:
+  platform: state
+  entity_id: device_tracker.pi_krasi_phone
+  from: 'not_home'
+  to: 'home'
+action:
+  service: notify.pushbullet
+  data_template:
+    message: Krasi is at home.
+    target: !secret pushbullet_ida_email
