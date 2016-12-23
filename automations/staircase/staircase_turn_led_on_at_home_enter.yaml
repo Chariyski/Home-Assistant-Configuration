@@ -5,7 +5,12 @@ trigger:
     from: 'not_home'
     to: 'home'
 condition:
-  - condition: sun
-    after: sunset
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: sensor.staircase_state
+      state: 'off'
+    - condition: sun
+      after: sunset
 action:
   - service: script.staircase_led_on
