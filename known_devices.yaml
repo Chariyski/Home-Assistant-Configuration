@@ -1,10 +1,3 @@
-krasi_laptop:
-  name: Acer V17 Nitro
-  mac: AC:D1:B8:16:54:8D
-  picture: http://static.acer.com/up/Resource/Acer/Laptops/Aspire_V_Nitro/Photogallery/20140815/Acer-Aspire-V-Nitro-VN7-571-photogallery-02.png
-  track: yes
-  hide_if_away: no
-
 pi_krasi_phone:
   name: Galaxy S5
   mac: 78:4B:87:60:AF:99
@@ -14,9 +7,16 @@ pi_krasi_phone:
 
 pi_ida_phone:
   name: Nexus5
-  mac: 
+  mac: CC:FA:00:F3:78:BF
   picture: http://images.anandtech.com/doci/7517/Nexus5-1381.jpg
   track: yes
+  hide_if_away: no
+
+krasi_laptop:
+  name: Acer V17 Nitro
+  mac: AC:D1:B8:16:54:8D
+  picture: http://static.acer.com/up/Resource/Acer/Laptops/Aspire_V_Nitro/Photogallery/20140815/Acer-Aspire-V-Nitro-VN7-571-photogallery-02.png
+  track: no
   hide_if_away: no
 
 pi_server:
@@ -25,3 +25,4 @@ pi_server:
   picture: 
   track: no
   hide_if_away: no
+  
