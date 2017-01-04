@@ -1,2 +1,2 @@
 input_boolean.staircase_led_state:
-  haaska_name: staircase
+  emulated_hue_name: staircase
