@@ -22,6 +22,7 @@ updater:
 
 automation: !include_dir_list automations
 device_tracker: !include_dir_merge_list trackers
+emulated_hue: !include hubs/emulated_hue_bridge.yaml
 group: !include_dir_named groups
 input_select: !include_dir_named inputs/selects
 input_boolean: !include_dir_named inputs/booleans
