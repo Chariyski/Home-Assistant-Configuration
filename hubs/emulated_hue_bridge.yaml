@@ -1,3 +1,4 @@
+type: alexa
 host_ip: !secret internal_ip
 off_maps_to_on_domains:
   - group
