@@ -1,5 +1,6 @@
-name: Home Assistant
+name: Settings
 view: yes
 entities:
+  - group.pc_state
   - group.all_automations
   - group.all_scripts

@@ -1,12 +1,11 @@
-type: alexa
 host_ip: !secret internal_ip
 off_maps_to_on_domains:
-  - group
   - script
   - scene
-expose_by_default: true
+expose_by_default: false
 exposed_domains:
   - light
   - switch
   - input_boolean
+  - group
   - media_player
