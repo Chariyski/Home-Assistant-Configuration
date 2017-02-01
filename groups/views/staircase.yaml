@@ -1,4 +1,0 @@
-name: Staircase
-view: yes
-entities:
-  - group.staircase_led

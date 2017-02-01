@@ -1,0 +1,4 @@
+name: Lights 
+view: yes
+entities:
+  - group.all_lights

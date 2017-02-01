@@ -1,5 +1,0 @@
-name: Server status
-view: yes
-entities:
-  - group.performance
-  - group.speed_test
