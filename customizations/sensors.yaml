@@ -2,10 +2,7 @@
 #                Devices               #
 ########################################
 
-sensor.krasis_phone_battery:
-  friendly_name: Phone battery
-  icon: mdi:cellphone
-sensor.idas_phone_battery:
+- entity_id: sensor.krasis_phone_battery, sensor.idas_phone_battery
   friendly_name: Phone battery
   icon: mdi:cellphone
 
@@ -13,9 +10,6 @@ sensor.idas_phone_battery:
 #             Google Maps              #
 ########################################
 
-sensor.gm_krasi_to_home:
-  friendly_name: Driving time to home
-  icon: mdi:car
-sensor.gm_ida_to_home:
+- entity_id: sensor.gm_krasi_to_home, sensor.gm_ida_to_home
   friendly_name: Driving time to home
   icon: mdi:car

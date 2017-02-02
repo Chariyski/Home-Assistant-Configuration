@@ -1,3 +1,3 @@
-switch.kitchen:
+- entity_id: switch.kitchen
   emulated_hue: True
   emulated_hue_name: kitchen
