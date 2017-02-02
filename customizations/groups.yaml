@@ -1,23 +1,23 @@
-group.lights:
+- entity_id: group.lights
   friendly_name: Lights
   order: 1
   hidden: True
   icon: mdi:lightbulb
 
-group.familly:
+- entity_id: group.familly
   order: 2
   icon: mdi:account-multiple
 
-group.settings:
+- entity_id: group.settings
   order: 3
   hidden: True
   icon: mdi:settings
 
-group.all_lights:
+- entity_id: group.all_lights
   emulated_hue: True
 
-group.ida:
+- entity_id: group.ida
   friendly_name: Ida
 
-group.krasi:
+- entity_id: group.krasi
   friendly_name: Krasi
