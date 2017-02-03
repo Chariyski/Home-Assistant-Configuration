@@ -1,1 +1,2 @@
 le_renew: /home/hass/.homeassistant/others/le_renew.sh
+generate_graph: "python3 -m hagraph -i /home/hass/.homeassistant/configuration.yaml -o  /home/hass/.homeassistant/www/graph/graph.svg"

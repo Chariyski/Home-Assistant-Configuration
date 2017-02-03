@@ -12,4 +12,6 @@ custom_components/__pycache__/**/*.*
 
 secrets.yaml
 deps
-www
+
+#www
+graph.svg
