@@ -2,6 +2,15 @@ alias: Turn on the kitchen led after sunset
 trigger:
   platform: sun
   event: sunset
+condition:
+  condition: or
+  conditions:
+    - condition: state
+      entity_id: 'device_tracker.pi_krasi_phone'
+      state: 'home'
+    - condition: state
+      entity_id: 'device_tracker.pi_ida_phone'
+      state: 'home'
 action:
   service: homeassistant.turn_on
   entity_id: switch.kitchen
