@@ -1,0 +1,17 @@
+alias: Turn off all lights if we are not at home.
+trigger:
+  platform: time
+  minutes: '/10'
+  seconds: '00'
+condition:
+  condition: and
+  conditions:
+    - condition: state
+      entity_id: input_boolean.guest_mode
+      state: 'off'
+    - condition: state
+      entity_id: group.familly
+      state: 'not_home'
+action:
+  service: homeassistant.turn_off
+  entity_id: group.lights
