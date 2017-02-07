@@ -1,3 +1,7 @@
+########################################
+#                Views                 #
+########################################
+
 - entity_id: group.lights
   friendly_name: Lights
   order: 1
@@ -13,11 +17,24 @@
   hidden: True
   icon: mdi:settings
 
+########################################
+#                Cards                 #
+########################################
+
 - entity_id: group.all_lights
   emulated_hue: True
+
+- entity_id: group.home_modes
+  friendly_name: Home Modes
 
 - entity_id: group.ida
   friendly_name: Ida
 
 - entity_id: group.krasi
   friendly_name: Krasi
+
+- entity_id: group.pc_state
+  friendly_name: Raspberry Status
+
+- entity_id: group.staircase_led
+  friendly_name: Staircase LED Settings
