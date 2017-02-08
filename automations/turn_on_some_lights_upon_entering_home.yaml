@@ -1,4 +1,4 @@
-alias: Turn on staircase led lights on home entering
+alias: Turn on some of the lights upon home entering
 trigger:
   - platform: state
     entity_id: device_tracker.pi_krasi_phone, device_tracker.pi_ida_phone
@@ -14,3 +14,5 @@ condition:
       after: sunset
 action:
   - service: script.staircase_led_on
+  - service: homeassistant.turn_on
+    entity_id: switch.kitchen

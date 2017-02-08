@@ -37,4 +37,4 @@
   friendly_name: Raspberry Status
 
 - entity_id: group.staircase_led
-  friendly_name: Staircase LED Settings
+  friendly_name: Staircase LED
