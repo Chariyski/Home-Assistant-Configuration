@@ -1,9 +1,8 @@
 - sensor.cpu_use
 - sensor.ram_free
+- sensor.disk_use_
 - sensor.last_boot
-- sensor.disk_free_ #disk_free_home
 
 - sensor.speedtest_ping
 - sensor.speedtest_download
 - sensor.speedtest_upload
-
