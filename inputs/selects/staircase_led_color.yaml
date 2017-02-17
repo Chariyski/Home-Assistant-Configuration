@@ -1,7 +1,9 @@
 name: Color
 icon: mdi:format-color-fill
 options:
+  - wood
   - white
   - red
   - blue
   - green
+initial: wood
