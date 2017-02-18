@@ -1,3 +1,7 @@
 - entity_id: switch.kitchen
   emulated_hue: True
   emulated_hue_name: kitchen
+
+- entity_id: switch.bedroom
+  emulated_hue: True
+  emulated_hue_name: bedroom
