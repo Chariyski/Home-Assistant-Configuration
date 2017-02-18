@@ -1,0 +1,8 @@
+- platform: mqtt
+  name: 'Bedroom'
+  state_topic: 'home/sonoff/bedroom/1/stat'
+  command_topic: 'home/sonoff/bedroom/1'
+  qos: 0
+  payload_on: 'on'
+  payload_off: 'off'
+  retain: true
