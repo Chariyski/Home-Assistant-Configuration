@@ -1,0 +1,18 @@
+alias: Notify if IP changes
+#hide_entity: True
+trigger:
+  platform: state
+  entity_id: sensor.ipchange
+  from: 'False'
+  to: 'True'
+action:
+  - service: persistent_notification.create
+    data:
+      title: 'Changed IP address:'
+      message: 'New IP: {{ states.sensor.external_ip.state }}'
+      notification_id: 'Critical Alert'
+  - service: notify.pushbullet
+    data:
+      title: 'Changed IP address:'
+      message: 'New IP: {{ states.sensor.external_ip.state }}'
+      target: !secret pushbullet_krasi_email

@@ -5,3 +5,8 @@
     - type: last_boot
     - type: disk_use_percent
       arg: /
+
+- platform: rest
+  resource: http://ip.jsontest.com
+  name: External IP
+  value_template: '{{ value_json.ip }}'
