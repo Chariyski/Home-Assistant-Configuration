@@ -1,11 +1,7 @@
 alias: Update staircase toggle switch
 trigger:
-  - platform: state
-    entity_id: sensor.staircase_state
-    state: 'on'
-  - platform: state
-    entity_id: sensor.staircase_state
-    state: 'off'
+  platform: state
+  entity_id: sensor.staircase_state
 action:
   service_template: >
     {% if is_state('sensor.staircase_state', 'off') %}
