@@ -1,4 +1,0 @@
-name: All lights
-entities:
-  - group.staircase_led
-  - switch.kitchen
