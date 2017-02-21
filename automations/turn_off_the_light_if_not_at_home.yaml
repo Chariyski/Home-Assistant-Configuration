@@ -13,5 +13,9 @@ condition:
       entity_id: group.familly
       state: 'not_home'
 action:
-  service: homeassistant.turn_off
-  entity_id: group.lights
+  - service: homeassistant.turn_off
+    entity_id:
+      - group.living_room_lights
+  - service: homeassistant.turn_off
+    entity_id:
+      - group.bedroom_lights

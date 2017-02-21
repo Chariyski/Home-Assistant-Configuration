@@ -21,8 +21,16 @@
 #                Cards                 #
 ########################################
 
-- entity_id: group.all_lights
+# Lights
+########################################
+
+- entity_id: group.bedroom_lights
+  emulated_hue: False
+
+- entity_id: group.living_room_lights
   emulated_hue: True
+
+########################################
 
 - entity_id: group.home_modes
   friendly_name: Home Modes
