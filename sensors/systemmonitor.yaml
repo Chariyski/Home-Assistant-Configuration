@@ -10,3 +10,11 @@
   resource: http://ip.jsontest.com
   name: External IP
   value_template: '{{ value_json.ip }}'
+
+- platform: template
+  sensors:
+    ipchange:
+      entity_id: sensor.external_ip
+      # the next part is hidden due to the IP address exposior
+      # '{%- if is_state("sensor.external_ip", "***.***.***.***") -%} False {%- else -%} True {%- endif %}'
+      value_template: !secret is_external_ip_changed

@@ -1,5 +1,5 @@
 # Home-Assistant Configuration
-[![Build Status](https://travis-ci.org/Chariyski/Home-Assistant-Configuration.svg?branch=master)](https://travis-ci.org/CCOSTAN/Home-AssistantConfig)
+[![Build Status](https://travis-ci.org/Chariyski/Home-Assistant-Configuration.svg?branch=master)](https://travis-ci.org/Chariyski/Home-Assistant-Configuration)
 [Home Assistant](https://home-assistant.io/) configuration files (YAMLs)
 
 I use [All In One installer](https://home-assistant.io/getting-started/installation-raspberry-pi-all-in-one/) [expanded to 16GB].
