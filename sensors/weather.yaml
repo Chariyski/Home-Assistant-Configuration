@@ -1,5 +1,5 @@
 - platform: darksky
-  api_key: a4277fdc3bfc990a0e8b00f73f1a7d34
+  api_key: !secret dark_sky_api_key
   monitored_conditions:
     - precip_type
     - precip_probability
