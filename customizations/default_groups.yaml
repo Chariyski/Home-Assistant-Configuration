@@ -1,4 +1,4 @@
-- entity_id: group.all_automations
+group.all_automations:
   hidden: false
-- entity_id: group.all_scripts
+group.all_scripts:
   hidden: false

@@ -2,17 +2,17 @@
 #                Views                 #
 ########################################
 
-- entity_id: group.lights
+group.lights:
   friendly_name: Lights
   order: 1
   hidden: True
   icon: mdi:lightbulb
 
-- entity_id: group.familly
+group.familly:
   order: 2
   icon: mdi:account-multiple
 
-- entity_id: group.settings
+group.settings:
   order: 3
   hidden: True
   icon: mdi:settings
@@ -24,25 +24,25 @@
 # Lights
 ########################################
 
-- entity_id: group.bedroom_lights
+group.bedroom_lights:
   emulated_hue: False
 
-- entity_id: group.living_room_lights
+group.living_room_lights:
   emulated_hue: True
 
 ########################################
 
-- entity_id: group.home_modes
+group.home_modes:
   friendly_name: Home Modes
 
-- entity_id: group.ida
+group.ida:
   friendly_name: Ida
 
-- entity_id: group.krasi
+group.krasi:
   friendly_name: Krasi
 
-- entity_id: group.pc_state
+group.pc_state:
   friendly_name: Raspberry Status
 
-- entity_id: group.staircase_led
+group.staircase_led:
   friendly_name: Staircase LED
