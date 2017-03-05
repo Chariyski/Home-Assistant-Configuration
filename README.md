@@ -1,5 +1,6 @@
 # Home-Assistant Configuration
 [![Build Status](https://travis-ci.org/Chariyski/Home-Assistant-Configuration.svg?branch=master)](https://travis-ci.org/Chariyski/Home-Assistant-Configuration)
+
 [Home Assistant](https://home-assistant.io/) configuration files (YAMLs)
 
 I use [All In One installer](https://home-assistant.io/getting-started/installation-raspberry-pi-all-in-one/) [expanded to 16GB].
@@ -8,7 +9,7 @@ For my backups I use [Win32 Disk Imager](https://sourceforge.net/projects/win32d
 
 ## Software on the Pi:
 * [Home Assistant](https://home-assistant.io/)
-* [Mosquitto][https://mosquitto.org] for MQTT
+* [Mosquitto](https://mosquitto.org) for MQTT
 * [Node.js](https://nodejs.org/en/)
 * [Samba](https://www.samba.org)
 * [home-assistant-graph](https://github.com/happyleavesaoc/home-assistant-graph)
