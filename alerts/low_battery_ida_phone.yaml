@@ -1,0 +1,8 @@
+name: Ida's phone battery is lower then 20%
+entity_id: binary_sensor.low_battery_ida_phone
+repeat:
+  - 60
+  - 120
+notifiers:
+  - krasi_pushbullet
+

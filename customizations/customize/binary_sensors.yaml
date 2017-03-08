@@ -1,0 +1,6 @@
+binary_sensor.low_battery_krasi_phone:
+  hidden: True
+
+binary_sensor.low_battery_ida_phone:
+  hidden: True
+
