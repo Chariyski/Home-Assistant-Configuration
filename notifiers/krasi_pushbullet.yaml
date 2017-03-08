@@ -1,0 +1,3 @@
+- platform: pushbullet
+  name: krasi_pushbullet
+  api_key: !secret pushbullet_krasi_api_key

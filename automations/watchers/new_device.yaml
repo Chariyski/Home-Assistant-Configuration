@@ -8,8 +8,8 @@ action:
       title: 'New device connected:'
       message: 'There has been a new device detected on the network. Be sure to appropriately catagorize it within Circle.'
       notification_id: 'Critical Alert'
-  - service: notify.pushbullet
+  - service: notify.krasi_pushbullet
     data_template:
       title: 'New device connected:'
       message: 'There has been a new device detected on the network. Be sure to appropriately catagorize it within Circle.'
-      target: !secret pushbullet_krasi_email
+

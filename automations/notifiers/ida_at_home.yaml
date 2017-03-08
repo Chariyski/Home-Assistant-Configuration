@@ -5,7 +5,7 @@ trigger:
   from: 'not_home'
   to: 'home'
 action:
-  service: notify.pushbullet
+  service: notify.krasi_pushbullet
   data_template:
     message: Ida is at home.
-    target: !secret pushbullet_krasi_email
+

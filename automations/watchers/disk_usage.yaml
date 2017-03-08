@@ -9,8 +9,8 @@ action:
       title: 'Hard Drive Monitor:'
       message: 'Your harddrive is running out of Space! /dev/root:{{ states.sensor.disk_use_.state }}%!'
       notification_id: 'Critical Alert'
-  - service: notify.pushbullet
+  - service: notify.krasi_pushbullet
     data_template:
       title: 'Hard Drive Monitor:'
       message: 'Your harddrive is running out of Space! /dev/root:{{ states.sensor.disk_use_.state }}%!'
-      target: !secret pushbullet_krasi_email
+
