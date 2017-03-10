@@ -22,6 +22,9 @@ logbook:
 sun:
 updater:
 
+zwave:
+  usb_path: /dev/zwave
+  config_path: /srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/libopenzwave-0.3.2-py3.4-linux-armv7l.egg/config/
 
 alert: !include_dir_named alerts
 automation: !include_dir_list automations
@@ -39,4 +42,3 @@ sensor: !include_dir_merge_list sensors
 shell_command: !include commands/shell_commands.yaml
 switch: !include_dir_merge_list switches/
 zone: !include_dir_merge_list zones
-
