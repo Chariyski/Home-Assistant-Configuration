@@ -1,7 +1,7 @@
 switch.kitchen:
   emulated_hue: True
-  emulated_hue_name: kitchen
+  emulated_hue_name: Kitchen
 
-switch.bedroom:
+switch.bedroom_spot_light:
   emulated_hue: True
-  emulated_hue_name: bedroom
+  emulated_hue_name: Bedroom spot light

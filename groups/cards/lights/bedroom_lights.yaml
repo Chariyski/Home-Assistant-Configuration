@@ -1,3 +1,4 @@
 name: Bedroom
 entities:
-  - switch.bedroom
+  - light.bedroom_level_2_0
+  - switch.bedroom_spot_light

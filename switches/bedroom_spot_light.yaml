@@ -1,8 +1,8 @@
 - platform: mqtt
-  name: 'Bedroom'
+  name: Bedroom spot light
   state_topic: 'home/sonoff/bedroom/1/stat'
   command_topic: 'home/sonoff/bedroom/1'
-  qos: 0
+  qos: 1
   payload_on: 'on'
   payload_off: 'off'
   retain: true
