@@ -17,8 +17,10 @@ For my backups I use [Win32 Disk Imager](https://sourceforge.net/projects/win32d
 ## Devices I have:
 * Few Android phones
 * [Amazon Echo DOT](http://amzn.to/2e3vHFQ)
-* Emulated Hue pushes all Switch, Group, input_boolean, script and scene information to Alexa for First Class Control!
+* [Aeon Labs Z Wave Stick (GEN 5)](http://amzn.to/2eAiAP0)
+* [Fibaro Dimmer 2](https://www.amazon.com/Fibaro-Dimmer-FGD-212-Z-Wave-Dimming/dp/B01JLLVRPU)
 * [Arduino Uno](https://www.arduino.cc/en/Main/ArduinoBoardUno) - controlling my staircase LED strips(I will add more about that in the coming months)
 * [iTeadStudio](https://www.itead.cc/) - [SonOff](https://www.itead.cc/sonoff-wifi-wireless-switch.html) and a [Sonoff Touch](https://www.itead.cc/smart-home/sonoff-touch.html) with [KmanOz Sonoff-HomeAssistant firmware](https://github.com/KmanOz/Sonoff-HomeAssistant)
 * [LED RGB Wifi Controller - flux_led compatible](http://www.ebay.com/itm/162256436781?_trksid=p2057872.m2749.l2649&var=461234460265&ssPageName=STRK%3AMEBIDX%3AIT) with [LED Strip](http://www.ebay.com/itm/252333606816?_trksid=p2057872.m2749.l2649&var=551178409173&ssPageName=STRK%3AMEBIDX%3AIT)
+* Emulated Hue pushes all Switch, Group, input_boolean, script and scene information to Alexa for First Class Control!
 * 500GB HDD
