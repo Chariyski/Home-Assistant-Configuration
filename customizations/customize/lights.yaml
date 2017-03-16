@@ -2,3 +2,17 @@ light.bedroom_level_2_0:
   emulated_hue: True
   emulated_hue_name: Bedroom
   friendly_name: Bedroom
+
+########################################
+#                Hidden                #
+########################################
+
+light.bedroom_level_2_0_2:
+  hidden: True
+
+light.bedroom_step_size_2_6:
+  hidden: True
+
+light.bedroom_step_size_2_6_2:
+  hidden: True
+

@@ -1,0 +1,30 @@
+sensor.bedroom_alarm_level_2_1:
+  hidden: True
+
+sensor.bedroom_alarm_type_2_0:
+  hidden: True
+
+sensor.bedroom_energy_2_0:
+  hidden: True
+
+sensor.bedroom_exporting_2_32:
+  hidden: True
+
+sensor.bedroom_heat_2_7:
+  hidden: True
+
+sensor.bedroom_power_2_4:
+  hidden: True
+
+sensor.bedroom_power_2_8:
+  hidden: True
+
+sensor.bedroom_power_management_2_11:
+  hidden: True
+
+sensor.bedroom_sourcenodeid_2_2:
+  hidden: True
+
+sensor.bedroom_system_2_12:
+  hidden: True
+
