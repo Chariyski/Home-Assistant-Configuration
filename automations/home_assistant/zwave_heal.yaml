@@ -1,0 +1,7 @@
+alias: Heal ZWave Nightly
+#hide_entity: True
+trigger:
+  platform: time
+  after: '2:30:00'
+action:
+  service: zwave.heal_network
