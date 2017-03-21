@@ -32,6 +32,9 @@ group.living_room_lights:
 
 ########################################
 
+group.alarm_clock:
+  friendly_name: Alarm Clock
+
 group.home_modes:
   friendly_name: Home Modes
 

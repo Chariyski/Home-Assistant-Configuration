@@ -1,3 +1,19 @@
+sensor.time:
+  hidden: true
+
+sensor.alarm_clock_hour:
+  hidden: true
+
+sensor.alarm_clock_minute:
+  hidden: true
+
+sensor.alarm_clock_time_long:
+  hidden: true
+
+sensor.alarm_clock_time:
+  friendly_name: 'Alarm Clock Setting'
+  icon: mdi:alarm
+
 sensor.bedroom_alarm_level_2_1:
   hidden: True
 

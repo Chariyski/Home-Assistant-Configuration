@@ -1,4 +1,5 @@
-#sensor Time and Date
 - platform: time_date
   display_options:
-    - "date_time"
+    - 'time'
+    - 'date_time'
+

@@ -32,8 +32,9 @@ binary_sensor: !include_dir_merge_list binary_sensors
 device_tracker: !include_dir_merge_list trackers
 emulated_hue: !include hubs/emulated_hue_bridge.yaml
 group: !include_dir_named groups
-input_select: !include_dir_named inputs/selects
 input_boolean: !include_dir_named inputs/booleans
+input_select: !include_dir_named inputs/selects
+input_slider: !include_dir_named inputs/sliders
 mqtt: !include servers/mqtt.yaml
 notify: !include_dir_merge_list notifiers
 panel_iframe: !include_dir_named iframes
