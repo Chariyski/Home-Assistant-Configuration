@@ -1,5 +1,5 @@
-- platform: tplink
-  host: !secret tplink_ip_address
-  username: !secret tplink_username
-  password: !secret tplink_password
-  track_new_devices: no
+#- platform: tplink
+#  host: !secret tplink_ip_address
+#  username: !secret tplink_username
+#  password: !secret tplink_password
+#  track_new_devices: no
