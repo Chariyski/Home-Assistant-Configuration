@@ -8,6 +8,7 @@
 *.sqlite
 *.txt
 .HA_VERSION
+.spotify-token-cache
 custom_components/__pycache__/**/*.*
 
 known_devices.yaml
