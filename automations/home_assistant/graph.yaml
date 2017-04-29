@@ -1,6 +1,6 @@
 alias: Generate graph
 trigger:
   platform: event
-  event_type: homeassistant_start
+  event_type: homeassistant
 action:
   service: shell_command.generate_graph
