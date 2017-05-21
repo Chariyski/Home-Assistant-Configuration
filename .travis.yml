@@ -1,5 +1,5 @@
 language: python
-env: HASS='homeassistant==0.44'  #Change to your version from .HA_VERSION
+env: HASS='homeassistant==0.45'  #Change to your version from .HA_VERSION
 python:
   - "3.4"
 matrix:

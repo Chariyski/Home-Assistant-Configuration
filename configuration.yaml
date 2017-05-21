@@ -21,6 +21,7 @@ history:
 logbook:
 sun:
 updater:
+config:
 
 recorder:
   db_url: mysql://hass:hass@localhost/hass
