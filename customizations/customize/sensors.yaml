@@ -14,33 +14,33 @@ sensor.alarm_clock_time:
   friendly_name: 'Alarm Clock Setting'
   icon: mdi:alarm
 
-sensor.bedroom_alarm_level_2_1:
+sensor.bedroom_alarm_level:
   hidden: True
 
-sensor.bedroom_alarm_type_2_0:
+sensor.bedroom_alarm_type:
   hidden: True
 
-sensor.bedroom_energy_2_0:
+sensor.bedroom_energy:
   hidden: True
 
-sensor.bedroom_exporting_2_32:
+sensor.bedroom_exporting:
   hidden: True
 
-sensor.bedroom_heat_2_7:
+sensor.bedroom_heat:
   hidden: True
 
-sensor.bedroom_power_2_4:
+sensor.bedroom_power:
   hidden: True
 
-sensor.bedroom_power_2_8:
+sensor.bedroom_power_2:
   hidden: True
 
-sensor.bedroom_power_management_2_11:
+sensor.bedroom_power_management:
   hidden: True
 
-sensor.bedroom_sourcenodeid_2_2:
+sensor.bedroom_sourcenodeid:
   hidden: True
 
-sensor.bedroom_system_2_12:
+sensor.bedroom_system:
   hidden: True
 

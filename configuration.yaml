@@ -29,6 +29,7 @@ recorder:
 zwave:
   usb_path: /dev/zwave
   config_path: /srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/libopenzwave-0.3.2-py3.4-linux-armv7l.egg/config/
+  new_entity_ids: true
 
 alert: !include_dir_named alerts
 automation: !include_dir_list automations

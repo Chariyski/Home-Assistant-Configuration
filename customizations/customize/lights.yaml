@@ -1,4 +1,4 @@
-light.bedroom_level_2_0:
+light.bedroom_level:
   emulated_hue: True
   emulated_hue_name: Bedroom
   friendly_name: Bedroom
@@ -7,12 +7,5 @@ light.bedroom_level_2_0:
 #                Hidden                #
 ########################################
 
-light.bedroom_level_2_0_2:
+light.bedroom_level_2:
   hidden: True
-
-light.bedroom_step_size_2_6:
-  hidden: True
-
-light.bedroom_step_size_2_6_2:
-  hidden: True
-
