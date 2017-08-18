@@ -13,23 +13,20 @@ frontend:
 http:
   base_url: !secret base_url
   api_password: !secret http_password
-  ssl_certificate: !secret ssl_certificate
-  ssl_key: !secret ssl_key
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
 discovery:
 conversation:
-history:
-logbook:
+#history:
+#logbook:
 sun:
 updater:
 config:
 
-recorder:
-  db_url: mysql://hass:hass@localhost/hass
+#recorder:
 
 zwave:
-  usb_path: /dev/zwave
-  config_path: /srv/homeassistant/homeassistant_venv/lib/python3.4/site-packages/libopenzwave-0.3.2-py3.4-linux-armv7l.egg/config/
-  new_entity_ids: true
+  usb_path: /dev/ttyACM0
 
 alert: !include_dir_named alerts
 automation: !include_dir_list automations

@@ -1,4 +1,4 @@
-broker: !secret static_ip
+broker: !secret internal_ip
 port: 1883
 keepalive: 60
 username: !secret mqtt_username
