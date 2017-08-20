@@ -1,1 +1,1 @@
-{"9": "light.bedroom_level", "5": "group.living_room_lights", "7": "light.bedroom_level_2_0", "8": "switch.bedroom_spot_light", "4": "switch.bedroom", "2": "switch.kitchen", "1": "input_boolean.staircase_led_state", "6": "group.bedroom_lights", "3": "group.all_lights"}
+{"1": "group.living_room_lights", "2": "input_boolean.staircase_led_state", "3": "switch.bedroom_spot_light", "4": "light.kitchen", "5": "light.bedroom_level"}

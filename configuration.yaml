@@ -37,6 +37,7 @@ group: !include_dir_named groups
 input_boolean: !include_dir_named inputs/booleans
 input_select: !include_dir_named inputs/selects
 input_slider: !include_dir_named inputs/sliders
+light: !include_dir_merge_list lights
 media_player: !include_dir_merge_list media_players
 mqtt: !include servers/mqtt.yaml
 notify: !include_dir_merge_list notifiers

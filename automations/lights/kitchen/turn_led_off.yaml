@@ -6,4 +6,4 @@ trigger:
   seconds: 0
 action:
   service: homeassistant.turn_off
-  entity_id: switch.kitchen
+  entity_id: light.kitchen

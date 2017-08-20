@@ -3,6 +3,11 @@ light.bedroom_level:
   emulated_hue_name: Bedroom
   friendly_name: Bedroom
 
+light.kitchen:
+  emulated_hue: True
+  emulated_hue_name: Kitchen
+  friendly_name: Kitchen
+
 ########################################
 #                Hidden                #
 ########################################

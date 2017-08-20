@@ -1,4 +1,4 @@
-name: Lights 
+name: Lights
 view: yes
 entities:
   - group.living_room_lights
