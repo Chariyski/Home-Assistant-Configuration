@@ -4,9 +4,8 @@ sequence:
   - service: script.turn_off
     data:
        entity_id: script.staircase_led_off
-  - service: notify.staircase_led
-    data:
-      message: '{ "workMode": "on" }'
+  - service: homeassistant.turn_on
+    entity_id: light.staircase_led
   # Set new timer
   - service: script.turn_on
     data:

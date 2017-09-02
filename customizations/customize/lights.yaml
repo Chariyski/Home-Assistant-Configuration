@@ -8,6 +8,10 @@ light.kitchen:
   emulated_hue_name: Kitchen
   friendly_name: Kitchen
 
+light.staircase_led:
+  emulated_hue: True
+  emulated_hue_name: staircase
+
 ########################################
 #                Hidden                #
 ########################################

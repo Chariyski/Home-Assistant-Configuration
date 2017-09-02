@@ -1,9 +1,0 @@
-alias: Home Assistant start up automation
-hide_entity: True
-trigger:
-  platform: event
-  event_type: homeassistant
-action:
-  service: automation.trigger
-  entity_id: automation.update_staircase_toggle_switch
-

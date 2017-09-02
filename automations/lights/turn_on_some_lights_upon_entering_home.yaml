@@ -7,9 +7,6 @@ trigger:
 condition:
   condition: and
   conditions:
-    - condition: state
-      entity_id: sensor.staircase_state
-      state: 'off'
     - condition: sun
       after: sunset
 action:

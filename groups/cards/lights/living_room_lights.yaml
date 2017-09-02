@@ -1,4 +1,4 @@
 name: Living room
 entities:
   - light.kitchen
-  - group.staircase_led
+  - light.staircase_led

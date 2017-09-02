@@ -1,8 +1,7 @@
 alias: "Turn off staircase light with delay"
 sequence:
   - delay:
-      minutes: 5
+      minutes: 10
       seconds: 0
-  - service: notify.staircase_led
-    data:
-      message: '{ "workMode" : "off" }'
+  - service: homeassistant.turn_off
+    entity_id: light.staircase_led

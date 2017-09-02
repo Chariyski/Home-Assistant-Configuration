@@ -1,0 +1,29 @@
+- platform: mqtt_json
+  name: "Staircase LED"
+  state_topic: "home/staircase-led"
+  command_topic: "home/staircase-led/set"
+  effect: true
+  effect_list:
+    - bpm
+    - candy cane
+    - confetti
+    - cyclon rainbow
+    - dots
+    - fire
+    - glitter
+    - juggle
+    - lightning
+    - noise
+    - police all
+    - police one
+    - rainbow
+    - rainbow with glitter
+    - ripple
+    - sinelon
+    - solid
+    - twinkle
+  brightness: true
+  flash: true
+  rgb: true
+  optimistic: false
+  qos: 0

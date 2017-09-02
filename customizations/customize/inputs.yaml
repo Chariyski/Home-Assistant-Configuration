@@ -1,7 +1,3 @@
-input_boolean.staircase_led_state:
-  emulated_hue: True
-  emulated_hue_name: staircase
-
 input_slider.alarm_clock_hour:
   friendly_name: 'Hour'
   icon: mdi:timer

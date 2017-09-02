@@ -46,6 +46,3 @@ group.krasi:
 
 group.pc_state:
   friendly_name: Raspberry Status
-
-group.staircase_led:
-  friendly_name: Staircase LED
