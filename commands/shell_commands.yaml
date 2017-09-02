@@ -1,2 +1,0 @@
-renew_ssl: /home/pi/certbot/certbot-auto renew --quiet --no-self-upgrade --standalone --preferred-challenges http-01
-generate_graph: "python3 -m hagraph -i /home/homeassistant/.homeassistant/configuration.yaml -o  /home/homeassistant/.homeassistant/www/graph/graph.svg"

@@ -1,4 +1,4 @@
-alias: 'Hue light on gradually with alarm'
+alias: 'Wake up automation'
 hide_entity: False
 trigger:
   platform: template
