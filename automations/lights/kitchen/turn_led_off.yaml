@@ -5,5 +5,7 @@ trigger:
   minutes: 0
   seconds: 0
 action:
-  service: homeassistant.turn_off
-  entity_id: light.kitchen
+  - service: homeassistant.turn_off
+    entity_id: light.kitchen
+  - service: homeassistant.turn_off
+    entity_id: light.kitchen_ornamental_led

@@ -12,4 +12,4 @@ condition:
 action:
   - service: script.staircase_led_on
   - service: homeassistant.turn_on
-    entity_id: light.kitchen
+    entity_id: light.kitchen_ornamental_led

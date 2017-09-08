@@ -13,4 +13,4 @@ condition:
       state: 'home'
 action:
   service: homeassistant.turn_on
-  entity_id: light.kitchen
+  entity_id: light.kitchen_ornamental_led

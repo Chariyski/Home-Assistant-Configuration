@@ -10,10 +10,11 @@
 .HA_VERSION
 .spotify-token-cache
 custom_components/__pycache__/**/*.*
+homebridge/
+deps/
 
 known_devices.yaml
 secrets.yaml
-deps
 
 #www
 graph.svg
