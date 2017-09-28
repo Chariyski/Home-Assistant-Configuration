@@ -3,9 +3,8 @@
   name: "Krasi's phone battery"
   unit_of_measurement: "%"
   value_template: '{{ value_json.batt }}'
-- platform: mqtt
-  state_topic: "owntracks/pi/ida_phone"
-  name: "Ida's phone battery"
-  unit_of_measurement: "%"
-  value_template: '{{ value_json.batt }}'
-
+#- platform: mqtt
+#  state_topic: "owntracks/pi/ida_phone"
+#  name: "Ida's phone battery"
+#  unit_of_measurement: "%"
+#  value_template: '{{ value_json.batt }}'

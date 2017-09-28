@@ -5,7 +5,6 @@ trigger:
   from: 'not_home'
   to: 'home'
 action:
-  service: notify.ida_pushbullet
+  service: notify.ios_ida_phone
   data_template:
     message: Krasi is at home.
-

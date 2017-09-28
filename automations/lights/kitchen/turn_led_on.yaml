@@ -9,7 +9,7 @@ condition:
       entity_id: 'device_tracker.pi_krasi_phone'
       state: 'home'
     - condition: state
-      entity_id: 'device_tracker.pi_ida_phone'
+      entity_id: 'device_tracker.ida_phone'
       state: 'home'
 action:
   service: homeassistant.turn_on

@@ -1,11 +1,10 @@
 alias: Send notification when Ida gets home
 trigger:
   platform: state
-  entity_id: device_tracker.pi_ida_phone
+  entity_id: device_tracker.ida_phone
   from: 'not_home'
   to: 'home'
 action:
   service: notify.krasi_pushbullet
   data_template:
     message: Ida is at home.
-

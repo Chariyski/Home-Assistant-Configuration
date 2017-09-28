@@ -1,0 +1,3 @@
+- name: iOSApp
+  platform: ios
+  target: !secret ios_ida_token

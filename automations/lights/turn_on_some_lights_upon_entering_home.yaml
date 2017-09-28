@@ -1,7 +1,7 @@
 alias: Turn on some of the lights upon home entering
 trigger:
   - platform: state
-    entity_id: device_tracker.pi_krasi_phone, device_tracker.pi_ida_phone
+    entity_id: device_tracker.pi_krasi_phone, device_tracker.ida_phone
     from: 'not_home'
     to: 'home'
 condition:

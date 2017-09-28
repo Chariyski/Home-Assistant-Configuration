@@ -4,5 +4,5 @@ repeat:
   - 60
   - 120
 notifiers:
-  - ida_pushbullet
+  - ios_ida_phone
 

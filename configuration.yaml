@@ -25,6 +25,8 @@ config:
 
 #recorder:
 
+ios:
+
 zwave:
   usb_path: /dev/ttyACM0
 

@@ -1,3 +1,4 @@
-- device_tracker.pi_ida_phone
-- sensor.idas_phone_battery
+- device_tracker.ida_phone
+- sensor.idas_iphone_battery_level
+- sensor.idas_iphone_battery_state
 - sensor.gm_ida_to_home
