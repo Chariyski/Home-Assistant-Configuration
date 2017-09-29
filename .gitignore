@@ -17,5 +17,5 @@ deps/
 known_devices.yaml
 secrets.yaml
 
-#www
+www
 graph.svg
