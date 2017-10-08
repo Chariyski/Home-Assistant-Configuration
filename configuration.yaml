@@ -17,13 +17,14 @@ http:
   ssl_key: /ssl/privkey.pem
 discovery:
 conversation:
-#history:
-#logbook:
+history:
+logbook:
 sun:
 updater:
 config:
 
-#recorder:
+recorder:
+  db_url: !secret database_url
 
 ios:
 
