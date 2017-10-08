@@ -4,11 +4,20 @@ trigger:
   platform: template
   value_template: '{{ states.sensor.time.state == states.sensor.alarm_clock_time_long.state }}'
 condition:
-  condition: state
-  entity_id: input_boolean.alarm_clock_status
-  state: 'on'
+  condition: and
+  conditions:
+    - condition: sun
+      after: sunrise
+    - condition: state
+      entity_id: input_boolean.alarm_clock_status
+      state: 'on'
 action:
-  service: notify.krasi_pushbullet
-  data_template:
-    title: 'Good Morning'
-    message: 'Have a nice day :)'
+  - service: notify.krasi_pushbullet
+    data_template:
+      title: 'Good Morning'
+      message: 'Have a nice day :)'
+  - service: light.turn_on
+    data: 
+      entity_id: light.bedroom_level
+      brightness: 255
+      transition: 10
