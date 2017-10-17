@@ -11,20 +11,20 @@ homeassistant:
 
 frontend:
 http:
-  base_url: !secret base_url
+  #base_url: !secret base_url
   api_password: !secret http_password
   ssl_certificate: /ssl/fullchain.pem
   ssl_key: /ssl/privkey.pem
 discovery:
 conversation:
-history:
-logbook:
+#history:
+#logbook:
 sun:
 updater:
 config:
 
-recorder:
-  db_url: !secret database_url
+#recorder:
+#  db_url: !secret database_url
 
 ios:
 
@@ -38,8 +38,7 @@ device_tracker: !include_dir_merge_list trackers
 emulated_hue: !include hubs/emulated_hue_bridge.yaml
 group: !include_dir_named groups
 input_boolean: !include_dir_named inputs/booleans
-#input_select: !include_dir_named inputs/selects
-input_slider: !include_dir_named inputs/sliders
+input_number: !include_dir_named inputs/numbers
 light: !include_dir_merge_list lights
 media_player: !include_dir_merge_list media_players
 mqtt: !include servers/mqtt.yaml

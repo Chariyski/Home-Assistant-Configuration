@@ -1,4 +1,4 @@
 - sensor.alarm_clock_time
-- input_slider.alarm_clock_hour
-- input_slider.alarm_clock_minute
+- input_number.alarm_clock_hour
+- input_number.alarm_clock_minute
 - input_boolean.alarm_clock_status

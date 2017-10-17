@@ -1,9 +1,9 @@
 - platform: template
   sensors:
     alarm_clock_hour:
-      value_template: '{{ states.input_slider.alarm_clock_hour.state | int }}'
+      value_template: '{{ states.input_number.alarm_clock_hour.state | int }}'
     alarm_clock_minute:
-      value_template: '{{ states.input_slider.alarm_clock_minute.state | int }}'
+      value_template: '{{ states.input_number.alarm_clock_minute.state | int }}'
     alarm_clock_time:
       value_template: >-
         {{ states.sensor.alarm_clock_hour.state }}:

@@ -1,8 +1,8 @@
-input_slider.alarm_clock_hour:
+input_number.alarm_clock_hour:
   friendly_name: 'Hour'
   icon: mdi:timer
 
-input_slider.alarm_clock_minute:
+input_number.alarm_clock_minute:
   friendly_name: 'Minute'
   icon: mdi:timer
 
