@@ -2,4 +2,3 @@ initial: 30
 min: 0
 max: 55
 step: 5
-mode: box

@@ -17,6 +17,7 @@ deps/
 
 known_devices.yaml
 secrets.yaml
+plex.conf
 
 www
 graph.svg
