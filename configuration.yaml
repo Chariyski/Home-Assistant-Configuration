@@ -17,6 +17,7 @@ http:
   ssl_key: /ssl/privkey.pem
 discovery:
 conversation:
+map:
 #history:
 #logbook:
 sun:

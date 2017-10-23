@@ -1,6 +1,6 @@
-- sensor.cpu_use
-- sensor.ram_free
-- sensor.disk_use_
+- sensor.cpu_used
+- sensor.ram_available
+- sensor.disk_used_
 - sensor.last_boot
 
 - sensor.speedtest_ping
