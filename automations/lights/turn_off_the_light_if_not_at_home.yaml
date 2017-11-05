@@ -15,7 +15,10 @@ condition:
 action:
   - service: homeassistant.turn_off
     entity_id:
-      - group.living_room_lights
+      - group.first_floor_lights
+  - service: homeassistant.turn_off
+    entity_id:
+      - group.second_floor_lights
   - service: homeassistant.turn_off
     entity_id:
       - group.bedroom_lights

@@ -1,0 +1,3 @@
+name: Second floor
+entities:
+  - light.staircase_led

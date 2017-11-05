@@ -1,0 +1,110 @@
+########################################
+#               Entrance               #
+########################################
+
+light.entrance_level_2:
+  hidden: True
+
+sensor.entrance_alarm_level:
+  hidden: True
+
+sensor.entrance_alarm_type:
+  hidden: True
+
+sensor.entrance_energy:
+  hidden: True
+
+sensor.entrance_exporting:
+  hidden: True
+
+sensor.entrance_heat:
+  hidden: True
+
+sensor.entrance_power:
+  hidden: True
+
+sensor.entrance_power_2:
+  hidden: True
+
+sensor.entrance_power_management:
+  hidden: True
+
+sensor.entrance_sourcenodeid:
+  hidden: True
+
+sensor.entrance_system:
+  hidden: True
+
+########################################
+#             Living Room              #
+########################################
+
+light.living_room_level_2:
+  hidden: True
+
+sensor.living_room_alarm_level:
+  hidden: True
+
+sensor.living_room_alarm_type:
+  hidden: True
+
+sensor.living_room_energy:
+  hidden: True
+
+sensor.living_room_exporting:
+  hidden: True
+
+sensor.living_room_heat:
+  hidden: True
+
+sensor.living_room_power:
+  hidden: True
+
+sensor.living_room_power_2:
+  hidden: True
+
+sensor.living_room_power_management:
+  hidden: True
+
+sensor.living_room_sourcenodeid:
+  hidden: True
+
+sensor.living_room_system:
+  hidden: True
+
+########################################
+#               Beedrom                #
+########################################
+
+light.bedroom_level_2:
+  hidden: True
+
+sensor.bedroom_alarm_level:
+  hidden: True
+
+sensor.bedroom_alarm_type:
+  hidden: True
+
+sensor.bedroom_energy:
+  hidden: True
+
+sensor.bedroom_exporting:
+  hidden: True
+
+sensor.bedroom_heat:
+  hidden: True
+
+sensor.bedroom_power:
+  hidden: True
+
+sensor.bedroom_power_2:
+  hidden: True
+
+sensor.bedroom_power_management:
+  hidden: True
+
+sensor.bedroom_sourcenodeid:
+  hidden: True
+
+sensor.bedroom_system:
+  hidden: True

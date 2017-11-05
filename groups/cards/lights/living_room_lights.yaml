@@ -1,5 +1,0 @@
-name: Living room
-entities:
-  - light.kitchen
-  - light.kitchen_ornamental_led
-  - light.staircase_led

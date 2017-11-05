@@ -1,7 +1,12 @@
-light.bedroom_level:
+light.living_room_level:
   emulated_hue: True
-  emulated_hue_name: Bedroom
-  friendly_name: Bedroom
+  emulated_hue_name: Living room
+  friendly_name: Living room
+
+light.entrance_level:
+  emulated_hue: True
+  emulated_hue_name: Entrance
+  friendly_name: Entrance
 
 light.kitchen:
   emulated_hue: True
@@ -17,9 +22,7 @@ light.staircase_led:
   emulated_hue: True
   emulated_hue_name: staircase
 
-########################################
-#                Hidden                #
-########################################
-
-light.bedroom_level_2:
-  hidden: True
+light.bedroom_level:
+  emulated_hue: True
+  emulated_hue_name: Bedroom
+  friendly_name: Bedroom

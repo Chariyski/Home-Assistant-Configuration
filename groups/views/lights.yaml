@@ -1,5 +1,6 @@
 name: Lights
 view: yes
 entities:
-  - group.living_room_lights
+  - group.first_floor_lights
+  - group.second_floor_lights
   - group.bedroom_lights

@@ -1,0 +1,30 @@
+sensor.entrance_alarm_level:
+  ignored: true
+  polling_intensity: 0
+sensor.entrance_alarm_type:
+  ignored: true
+  polling_intensity: 0
+sensor.entrance_energy:
+  ignored: true
+  polling_intensity: 0
+sensor.entrance_exporting:
+  ignored: true
+  polling_intensity: 0
+sensor.entrance_heat:
+  ignored: true
+  polling_intensity: 0
+sensor.entrance_power_2:
+  ignored: true
+  polling_intensity: 0
+sensor.entrance_power:
+  ignored: true
+  polling_intensity: 0
+sensor.entrance_power_management:
+  ignored: true
+  polling_intensity: 0
+sensor.entrance_sourcenodeid:
+  ignored: true
+  polling_intensity: 0
+sensor.entrance_system:
+  ignored: true
+  polling_intensity: 0
