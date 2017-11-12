@@ -24,11 +24,14 @@ group.settings:
 # Lights
 ########################################
 
+group.first_floor_lights:
+  emulated_hue: True
+
+group.second_floor_lights:
+  emulated_hue: True
+
 group.bedroom_lights:
   emulated_hue: False
-
-group.living_room_lights:
-  emulated_hue: True
 
 ########################################
 
