@@ -6,8 +6,13 @@ trigger:
 condition:
   condition: and
   conditions:
-    - condition: sun
-      after: sunrise
+    - condition: time
+      weekday:
+        - mon
+        - tue
+        - wed
+        - thu
+        - fri
     - condition: state
       entity_id: input_boolean.alarm_clock_status
       state: 'on'
@@ -17,7 +22,7 @@ action:
       title: 'Good Morning'
       message: 'Have a nice day :)'
   - service: light.turn_on
-    data: 
+    data:
       entity_id: light.bedroom_level
       brightness: 255
       transition: 10
