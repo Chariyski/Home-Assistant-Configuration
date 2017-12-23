@@ -18,6 +18,7 @@ deps/
 known_devices.yaml
 secrets.yaml
 plex.conf
+webostv.conf
 
 www
 graph.svg

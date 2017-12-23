@@ -1,0 +1,9 @@
+media_player.living_room_tv:
+  emulated_hue: True
+  emulated_hue_name: Living room TV
+  friendly_name: Living room TV
+
+media_player.shield:
+  emulated_hue: True
+  emulated_hue_name: Shield
+  friendly_name: Nvidia Shield

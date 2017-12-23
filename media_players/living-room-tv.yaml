@@ -1,0 +1,12 @@
+- platform: webostv
+  host: 192.168.0.110
+  name: Living Room TV
+  timeout: 5
+  filename: webostv.conf
+  turn_on_action:
+  - service: media_player.turn_on
+    entity_id: media_player.shield
+  customize:
+    sources:
+      - youtube
+      - netflix

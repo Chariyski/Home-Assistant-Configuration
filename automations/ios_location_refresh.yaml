@@ -1,4 +1,4 @@
-alias: Notify iOS app
+alias: IOS Location Update
 trigger:
   - platform: time
     minutes: '/15'
