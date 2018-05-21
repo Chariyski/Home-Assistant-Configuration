@@ -1,18 +1,18 @@
 language: python
-env: HASS='homeassistant==0.54'  #Change to your version from .HA_VERSION
+env: HASS='homeassistant==0.69'  #Change to your version from .HA_VERSION
 python:
-  - "3.4"
+  - "3.6"
 matrix:
   fast_finish: true
   include:
-    - python: "3.4"
+    - python: "3.6"
       env: HASS='homeassistant'
-    - python: "3.4"
+    - python: "3.6"
       env: HASS='https://github.com/home-assistant/home-assistant/archive/dev.zip'
   allow_failures:
-    - python: "3.4"
+    - python: "3.6"
       env: HASS='homeassistant'
-    - python: "3.4"
+    - python: "3.6"
       env: HASS='https://github.com/home-assistant/home-assistant/archive/dev.zip'
 cache:
   directories:

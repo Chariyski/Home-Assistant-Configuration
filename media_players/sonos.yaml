@@ -1,0 +1,3 @@
+- platform: sonos
+  hosts:
+    - 192.168.0.130

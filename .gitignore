@@ -8,6 +8,8 @@
 *.db-journal
 *.sqlite
 *.txt
+*.mp3
+._*.yaml
 .ios.conf
 .HA_VERSION
 .spotify-token-cache

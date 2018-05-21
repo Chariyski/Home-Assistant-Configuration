@@ -11,7 +11,7 @@ homeassistant:
 
 frontend:
 http:
-  #base_url: !secret base_url
+  base_url: !secret base_url
   api_password: !secret http_password
   ssl_certificate: /ssl/fullchain.pem
   ssl_key: /ssl/privkey.pem
@@ -48,5 +48,6 @@ panel_iframe: !include_dir_named iframes
 script: !include_dir_named scripts
 sensor: !include_dir_merge_list sensors
 shell_command: !include commands/shell_commands.yaml
-switch: !include_dir_merge_list switches/
+switch: !include_dir_merge_list switches
+tts: !include_dir_merge_list tts
 zone: !include_dir_merge_list zones

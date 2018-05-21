@@ -4,6 +4,7 @@
     "11": "group.second_floor_lights",
     "12": "media_player.living_room_tv",
     "13": "media_player.shield",
+    "14": "script.test",
     "2": "input_boolean.staircase_led_state",
     "3": "switch.bedroom_spot_light",
     "4": "light.kitchen",
