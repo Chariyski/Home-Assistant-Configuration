@@ -1,16 +1,13 @@
 {
-    "1": "group.living_room_lights",
-    "10": "group.first_floor_lights",
-    "11": "group.second_floor_lights",
-    "12": "media_player.living_room_tv",
-    "13": "media_player.shield",
-    "14": "script.test",
-    "2": "input_boolean.staircase_led_state",
+    "1": "group.first_floor_lights",
+    "10": "light.living_room_level",
+    "11": "media_player.shield",
+    "2": "group.second_floor_lights",
     "3": "switch.bedroom_spot_light",
-    "4": "light.kitchen",
-    "5": "light.bedroom_level",
-    "6": "light.staircase_led",
-    "7": "light.kitchen_ornamental_led",
-    "8": "light.entrance_level",
-    "9": "light.living_room_level"
+    "4": "light.staircase_led",
+    "5": "light.kitchen_ornamental_led",
+    "6": "media_player.living_room_tv",
+    "7": "light.kitchen",
+    "8": "light.bedroom_level",
+    "9": "light.entrance_level"
 }

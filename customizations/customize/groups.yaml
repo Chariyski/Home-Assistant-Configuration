@@ -25,13 +25,13 @@ group.settings:
 ########################################
 
 group.first_floor_lights:
-  emulated_hue: True
+  emulated_hue_hidden: false
 
 group.second_floor_lights:
-  emulated_hue: True
+  emulated_hue_hidden: false
 
 group.bedroom_lights:
-  emulated_hue: False
+  emulated_hue_hidden: true
 
 ########################################
 

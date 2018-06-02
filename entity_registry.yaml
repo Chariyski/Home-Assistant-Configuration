@@ -198,3 +198,11 @@ sensor.temperature_158d0002091bcf:
   name:
   platform: xiaomi_aqara
   unique_id: temperature158d0002091bcf
+sensor.illumination_7811dcb9c667:
+  name:
+  platform: xiaomi_aqara
+  unique_id: illumination7811dcb9c667
+light.gateway_light_7811dcb9c667:
+  name:
+  platform: xiaomi_aqara
+  unique_id: rgb7811dcb9c667

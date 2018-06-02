@@ -1,28 +1,28 @@
 light.living_room_level:
-  emulated_hue: True
+  emulated_hue_hidden: false
   emulated_hue_name: Living room
   friendly_name: Living room
 
 light.entrance_level:
-  emulated_hue: True
+  emulated_hue_hidden: false
   emulated_hue_name: Entrance
   friendly_name: Entrance
 
 light.kitchen:
-  emulated_hue: True
+  emulated_hue_hidden: false
   emulated_hue_name: Kitchen
   friendly_name: Kitchen
 
 light.kitchen_ornamental_led:
-  emulated_hue: True
+  emulated_hue_hidden: false
   emulated_hue_name: Kitchen ornamental
   friendly_name: Kitchen ornamental
 
 light.staircase_led:
-  emulated_hue: True
+  emulated_hue_hidden: false
   emulated_hue_name: staircase
 
 light.bedroom_level:
-  emulated_hue: True
+  emulated_hue_hidden: false
   emulated_hue_name: Bedroom
   friendly_name: Bedroom
