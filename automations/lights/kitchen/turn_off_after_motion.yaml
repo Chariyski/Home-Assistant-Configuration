@@ -3,8 +3,8 @@ trigger:
   platform: state
   entity_id: binary_sensor.motion_sensor_158d000227081e
   to: 'off'
-  for:
-    minutes: 2
 action:
-  service: homeassistant.turn_off
-  entity_id: light.kitchen
+  - service: homeassistant.turn_off
+    entity_id: light.kitchen
+  - service: homeassistant.turn_off
+    entity_id: light.kitchen_ornamental_led
