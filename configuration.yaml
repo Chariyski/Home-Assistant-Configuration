@@ -36,7 +36,7 @@ alert: !include_dir_named alerts
 automation: !include_dir_list automations
 binary_sensor: !include_dir_merge_list binary_sensors
 device_tracker: !include_dir_merge_list trackers
-emulated_hue: !include hubs/emulated_hue_bridge.yaml
+emulated_hue: !include  hubs/emulated_hue_bridge.yaml
 group: !include_dir_named groups
 input_boolean: !include_dir_named inputs/booleans
 input_number: !include_dir_named inputs/numbers
@@ -50,4 +50,5 @@ sensor: !include_dir_merge_list sensors
 shell_command: !include commands/shell_commands.yaml
 switch: !include_dir_merge_list switches
 tts: !include_dir_merge_list tts
+xiaomi_aqara: !include hubs/xiaomi.yaml
 zone: !include_dir_merge_list zones

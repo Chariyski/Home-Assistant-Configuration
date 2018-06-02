@@ -1,0 +1,5 @@
+discovery_retry: 10
+#interface: 192.168.0.108
+gateways:
+  - mac:
+    key: !secret xiaomi_hub_key

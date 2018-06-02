@@ -178,3 +178,23 @@ zwave.living_room:
   name:
   platform: zwave
   unique_id: node-6
+binary_sensor.door_window_sensor_158d0002254250:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d0002254250
+binary_sensor.motion_sensor_158d000227081e:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d000227081e
+binary_sensor.door_window_sensor_158d0002254180:
+  name:
+  platform: xiaomi_aqara
+  unique_id: status158d0002254180
+sensor.humidity_158d0002091bcf:
+  name:
+  platform: xiaomi_aqara
+  unique_id: humidity158d0002091bcf
+sensor.temperature_158d0002091bcf:
+  name:
+  platform: xiaomi_aqara
+  unique_id: temperature158d0002091bcf
