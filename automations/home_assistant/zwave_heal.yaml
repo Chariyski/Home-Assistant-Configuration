@@ -1,5 +1,4 @@
 alias: Heal ZWave Nightly
-#hide_entity: True
 trigger:
   platform: time
   at: '2:30:00'
