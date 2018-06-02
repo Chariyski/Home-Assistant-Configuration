@@ -3,5 +3,5 @@
     low_battery_krasi_phone:
       value_template: '{{ states.device_tracker.pi_krasi_phone.attributes.battery < 20 }}'
     low_battery_ida_phone:
-      value_template: '{{ states.device_tracker.ida_phone.attributes.battery < 20 }}'
+      value_template: '{{ states.sensor.idas_iphone_battery_level.state | round(0) < 20 }}'
 
