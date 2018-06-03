@@ -1,6 +1,0 @@
-name: Lights
-view: yes
-entities:
-  - group.first_floor_lights
-  - group.second_floor_lights
-  - group.bedroom_lights

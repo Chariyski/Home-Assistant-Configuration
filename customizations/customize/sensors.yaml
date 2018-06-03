@@ -11,5 +11,23 @@ sensor.alarm_clock_time_long:
   hidden: true
 
 sensor.alarm_clock_time:
-  friendly_name: 'Alarm Clock Setting'
+  friendly_name: Alarm Clock Setting
   icon: mdi:alarm
+
+
+########################################
+#             Living room              #
+########################################
+
+sensor.illumination_7811dcb9c667:
+  friendly_name: Liiving room Illuminance
+
+########################################
+#              Beedroom                #
+########################################
+
+sensor.humidity_158d0002091bcf:
+  friendly_name: Humidity
+
+sensor.temperature_158d0002091bcf:
+  friendly_name: Temperature

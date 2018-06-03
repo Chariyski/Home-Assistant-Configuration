@@ -1,6 +1,0 @@
-name: First floor
-entities:
-  - light.entrance_level
-  - light.living_room_level
-  - light.kitchen
-  - light.kitchen_ornamental_led

@@ -4,3 +4,26 @@ binary_sensor.low_battery_krasi_phone:
 binary_sensor.low_battery_ida_phone:
   hidden: True
 
+########################################
+#              Entrance                #
+########################################
+
+binary_sensor.door_window_sensor_158d0002254250:
+  friendly_name: Door
+
+########################################
+#            Living Room               #
+########################################
+
+binary_sensor.door_window_sensor_158d0002254180:
+  icon: mdi:window-closed
+  friendly_name: Window
+
+
+########################################
+#              Kitchen                 #
+########################################
+
+binary_sensor.motion_sensor_158d000227081e:
+  icon: mdi:door
+  friendly_name: Motion

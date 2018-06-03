@@ -1,0 +1,8 @@
+name: Rooms
+view: yes
+entities:
+  - group.entrance
+  - group.kitchen
+  - group.living_room
+  - group.staircase
+  - group.bedroom

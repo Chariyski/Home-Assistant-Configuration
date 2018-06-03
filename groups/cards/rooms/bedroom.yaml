@@ -1,4 +1,6 @@
 name: Bedroom
 entities:
+  - sensor.temperature_158d0002091bcf
+  - sensor.humidity_158d0002091bcf
   - light.bedroom_level
   - switch.bedroom_spot_light

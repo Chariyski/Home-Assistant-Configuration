@@ -1,0 +1,5 @@
+name: Kitchen
+entities:
+  - binary_sensor.motion_sensor_158d000227081e
+  - light.kitchen
+  - light.kitchen_ornamental_led

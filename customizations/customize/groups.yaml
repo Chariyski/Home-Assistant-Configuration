@@ -2,11 +2,11 @@
 #                Views                 #
 ########################################
 
-group.lights:
-  friendly_name: Lights
+group.rooms:
+  friendly_name: Rooms
   order: 1
   hidden: True
-  icon: mdi:lightbulb
+  icon: mdi:home
 
 group.familly:
   order: 2
