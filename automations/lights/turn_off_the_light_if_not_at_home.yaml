@@ -15,10 +15,16 @@ condition:
 action:
   - service: homeassistant.turn_off
     entity_id:
-      - group.first_floor_lights
+      - group.entrance
   - service: homeassistant.turn_off
     entity_id:
-      - group.second_floor_lights
+      - group.kitchen
   - service: homeassistant.turn_off
     entity_id:
-      - group.bedroom_lights
+      - group.living_room
+  - service: homeassistant.turn_off
+    entity_id:
+      - group.staircase
+  - service: homeassistant.turn_off
+    entity_id:
+      - group.bedroom
