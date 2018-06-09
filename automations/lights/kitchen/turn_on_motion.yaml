@@ -4,7 +4,9 @@ trigger:
   entity_id: binary_sensor.motion_sensor_158d000227081e
   to: 'on'
 action:
-  - service: homeassistant.turn_on
-    entity_id: light.kitchen
+  - service: light.turn_on
+    data:
+      entity_id: light.kitchen
+      white_value : 225
   - service: homeassistant.turn_on
     entity_id: light.kitchen_ornamental_led
