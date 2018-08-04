@@ -10,13 +10,15 @@
 *.txt
 *.mp3
 ._*.yaml
+._secrets.yaml
+.storage/
 .ios.conf
 .HA_VERSION
 .spotify-token-cache
 custom_components/__pycache__/**/*.*
 homebridge/
 deps/
-
+entity_registry.json
 known_devices.yaml
 secrets.yaml
 plex.conf
